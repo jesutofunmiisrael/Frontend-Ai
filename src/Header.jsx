@@ -8,6 +8,7 @@ const Header = () => {
     color: '#61dafb',
     textDecoration: 'none',
     margin: '0 10px',
+  
   };
 
     

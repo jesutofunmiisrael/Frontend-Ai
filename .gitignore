@@ -1,2 +1,22 @@
 .env
-.node-moules
+/node-moules
+
+
+# .form::before{
+#     background-image:;
+#     background:rgba(227, 35, 35, 0.76),
+#     width: 100%;
+#     height: 100%;
+#     -webkit-background-size:cover;
+#     background-size: cover;
+#     background-position: center;
+#     background-repeat: no-repeat;
+#     content: '';
+#     position: fixed;
+#     left: 0px;
+#     right: 0;
+#     top: 0;
+#     bottom: 0;
+#     z-index: -1;
+#     display: block;
+# }
