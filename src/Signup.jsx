@@ -137,21 +137,21 @@ const Signup = () => {
 
       <form className='form' onSubmit={handleSubmit(onSubmit)}>
 
-        {/* FULL NAME */}
+    
         <div>
           <label htmlFor="name">FULL NAME</label>
           <input type="text" id='name' {...register("name")} />
           {errors.name && <p className='error-message'>{errors.name.message}</p>}
         </div>
 
-        {/* EMAIL */}
+     
         <div>
           <label htmlFor="email">EMAIL</label>
           <input type="text" id='email' {...register("email")} />
           {errors.email && <p className='error-message'>{errors.email.message}</p>}
         </div>
 
-        {/* PASSWORD */}
+      
         <div className="password-container">
           <label htmlFor="password">PASSWORD</label>
           <input 
